@@ -44,7 +44,7 @@ start_server <- function() {
     message <- paste0("Error: ",message, "\n")
     OutputJSON <- list(OutputType = "Error", toBlk = CodesJSON$fromBlk, Output = message)
     OutputString <- jsonlite::toJSON(OutputJSON, digits = NA)
-    OutputString <- utf8_normalize(OutputString, map_quote=TRUE)
+    OutputString <- utf8::utf8_normalize(OutputString, map_quote=TRUE)
     pbdZMQ::zmq.msg.send(charToRaw(OutputString), ReplyToNode, flags = .pbd_env$ZMQ.SR$BLOCK,serialize = FALSE)
   }
 
