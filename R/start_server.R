@@ -72,7 +72,7 @@ start_server <- function() {
 
   counter = 0
 
-  output_handler <- new_output_handler(
+  output_handler <- evaluate::new_output_handler(
     source = identity,
     text = text_handler,
     graphics = graphics_handler,
