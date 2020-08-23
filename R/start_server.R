@@ -161,7 +161,6 @@ start_server <- function() {
   pbdZMQ::zmq.close(RequestFromNode)
   pbdZMQ::zmq.close(ReplyToNode)
   pbdZMQ::zmq.ctx.destroy(ZmqContext)
-  print("quitting")
   q(save = "no")
 }
 
