@@ -20,7 +20,6 @@ A data frame with 231 rows and 9 variables:
 substance
 }
 \description{
-Big 5 persoanlity (Agreeableness, Conscientiousness, Extraversion,
-Neuroticism, Openness), Depression, Anxiety and Sex
+A simulated dataset of 553 participants collected at Grade 7, Grade 8 and age 25.
 }
 \keyword{datasets}
