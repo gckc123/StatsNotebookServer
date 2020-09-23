@@ -14,5 +14,5 @@
 #'   \item{sub_disorder}{Substance use disorder in young adulthood}
 #'
 #' }
-#' @source Data were adapted from the epi.bfi dataset from the psychTools package
-"personality"
+
+"substance"
