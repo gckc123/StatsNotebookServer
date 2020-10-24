@@ -12,9 +12,9 @@
 #'   \item{GII}{Gender Inequality Index in 2018}
 #'   \item{CO2}{Crabon dioxide emissions, per capita (tonnes)}
 #'   \item{Prison}{Prison population (per 100,000 people) in 2017}
-#'   \item{Homocide}{Crabon dioxide emissions, per capita (tonnes)}
-#'   \item{GDP}{Crabon dioxide emissions, per capita (tonnes)}
-#'   \item{Schooling}{Crabon dioxide emissions, per capita (tonnes)}
+#'   \item{Homocide}{Homocide rate (per 100,000 people) in 2017}
+#'   \item{GDP}{Gross domestic product (GDP) per capita (2011 PPP $) in 2018}
+#'   \item{Schooling}{Expected years of schooling (years) in 2018}
 #'   \item{Continent}{Continent}
 #'
 #' }
