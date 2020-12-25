@@ -19,7 +19,6 @@ A data frame with 1200 rows and 11 variables:
   \item{cannabis_3}{Used cannabis at least weekly at Year 12. 0: No; 1: Yes}
   \item{illicit_drug}{Used illicit at age 21. 0: No; 1: Yes}
 
-
 }
 }
 \source{
